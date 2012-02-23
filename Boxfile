@@ -1,2 +1,11 @@
+global:
+  env:
+    - APP_NAME: lucy
+    - ENV: production
+
 web1:
-  shared_writable_dirs: [ pagoda ]
+  cron:
+	- "* * * * *": "ls -la"
+    - "*/3 */2 1-3 2,6,7 2": "echo 'im a little teapot'"
+
+

@@ -1,5 +1,4 @@
-<head><embed src="majortom.mid" HIDDEN="true" autostart="true"> <noembed> <bgsound src="majortom.mid"> </noembed>
-</head>
+<head><title>Strobe</title></head>
 <script type="text/javascript">
 <!--
 spe=100;
@@ -46,18 +45,10 @@ clearInterval(loopID);
 canGo=true;
 }
 function Go() {
-col[1]="red"
-col[2]="yellowgreen"
-col[3]="yellow"
-col[4]="whitesmoke"
-col[5]="white"
-col[6]="wheat"
-col[7]="violet"
-col[8]="turquoise"
-col[9]="tomato"
-col[10]="thistle"
+col[1]="black"
+col[2]="white"
 pos++;
-if (pos<0||pos>10) {
+if (pos<0||pos>2) {
 pos = 0;
 }
 document.bgColor = col[pos];
@@ -66,18 +57,9 @@ document.bgColor = col[pos];
 }
 function Start()
 {
-   if(canGo) loopID =setInterval("Go()",50);
+   if(canGo) loopID =setInterval("Go()",1);
     canGo=false;
 }
 window.onload=Start;
 // End -->
 </SCRIPT>
- 
-<FONT COLOR=" #CC00FF"><marquee behavior="scroll" direction="left" scrollamount="10" style="font-size:100px;"><blink>PAGODABOX IS AWESOME</blink></marquee></FONT>
-<FONT COLOR="#00FFFF"><marquee behavior="scroll" direction="right" scrollamount="100" style="font-size:100px;"><blink>PAGODABOX IS AWESOME</blink></marquee></FONT>
-<FONT COLOR="GREEN"><marquee behavior="scroll" direction="left" scrollamount="5" style="font-size:100px;"><blink>PAGODABOX IS AWESOME</blink></marquee></FONT>
-<FONT COLOR="BLUE"><marquee behavior="scroll" direction="right" scrollamount="15" style="font-size:100px;"><blink>PAGODABOX IS AWESOME</blink></marquee></FONT>
-<FONT COLOR="YELLOW"><marquee behavior="scroll" direction="left" scrollamount="13" style="font-size:100px;"><blink>PAGODABOX IS AWESOME</blink></marquee></FONT>
-<FONT COLOR="RED"><marquee behavior="scroll" direction="right" scrollamount="7" style="font-size:100px;"><blink>PAGODABOX IS AWESOME</blink></marquee></FONT>
-<FONT COLOR="#E0EEEE"><marquee behavior="scroll" direction="left" scrollamount="33" style="font-size:100px;"><blink>PAGODABOX IS AWESOME</blink></marquee></FONT>
-<FONT COLOR="#FBA16C"><marquee behavior="scroll" direction="right" scrollamount="1" style="font-size:100px;"><blink>PAGODABOX IS AWESOME</blink></marquee></FONT>

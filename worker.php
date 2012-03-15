@@ -1,6 +1,6 @@
 <?php
 
-require 'lib/resque/lib/Resque.php';
+require 'lib/Resque.php';
 Resque::setBackend('tunnel.pagodabox.com:6379');
 
 class Send_Email
@@ -14,6 +14,6 @@ class Send_Email
     }
 }
 
-require 'lib/resque/resque.php';
+require 'resque.php';
 
 ?>

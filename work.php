@@ -1,6 +1,6 @@
 <?php
 
-require 'lib/resque/lib/Resque.php';
+require 'lib/Resque.php';
 Resque::setBackend('tunnel.pagodabox.com:6379');
 
 $args = array(

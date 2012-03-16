@@ -8,7 +8,7 @@ class Send_Email
     public function perform()
     {
         // Work work work
-        // echo $this->args['name'];
+        echo $this->args['name'];
         echo "email sent";
     }
 }

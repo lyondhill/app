@@ -45,14 +45,22 @@ clearInterval(loopID);
 canGo=true;
 }
 function Go() {
-col[1]="black"
-col[2]="white"
-pos++;
-if (pos<0||pos>2) {
-pos = 0;
-}
-document.bgColor = col[pos];
-//loopID = setTimeout("Start()",50);
+  col[1]="black"
+  col[2]="white"
+  col[3]="yellow"
+  col[4]="whitesmoke"
+  col[5]="white"
+  col[6]="wheat"
+  col[7]="violet"
+  col[8]="turquoise"
+  col[9]="tomato"
+  col[10]="thistle"
+  pos++;
+  if (pos<0||pos>2) {
+    pos = 0;
+  }
+  document.bgColor = col[pos];
+  //loopID = setTimeout("Start()",50);
 
 }
 function Start()
@@ -62,4 +70,9 @@ function Start()
 }
 window.onload=Start;
 // End -->
+<<<<<<< HEAD
 </SCRIPT>
+=======
+</SCRIPT>
+ 
+>>>>>>> 74c4b117e88de4e579f7e3f84158d60b0e5013e5

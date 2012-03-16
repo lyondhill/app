@@ -1,4 +1,2 @@
 worker1:
-  start:
-    timeout: 10000
-    exec: "VVERBOSE=1 REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=worker.php php /var/www/resque.php"
+  exec: "VVERBOSE=1 REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=worker.php php /var/www/resque.php"

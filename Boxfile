@@ -1,2 +1,0 @@
-worker1:
-  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"

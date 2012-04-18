@@ -8,7 +8,7 @@ class Send_Email
     public function perform()
     {
         // Work work work
-        mail('braxton@pagodabox.com', 'Test Subject', "This is an email message from the pongo app");
+        mail('clay@pagodabox.com', 'Test Subject', "This is an email message from the pongo app");
         echo $this->args['name'];
         echo "email sent";
     }

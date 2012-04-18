@@ -1,18 +1,18 @@
-web1:
-  php_version: 5.3.8
-web2:
-  php_version: 5.3.8
-web3:
-  php_version: 5.3.8
-web4:
-  php_version: 5.3.8
-web5:
-  php_version: 5.3.8
-web6:
-  php_version: 5.3.8
-web7:
-  php_version: 5.3.8
-web8:
-  php_version: 5.3.8
-web9:
-  php_version: 5.3.8
+worker1:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker2:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker3:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker4:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker5:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker6:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker7:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker8:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker9:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"

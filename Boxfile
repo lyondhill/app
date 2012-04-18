@@ -1,2 +1,40 @@
 worker1:
   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker2:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker3:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker4:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker5:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker6:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker7:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker8:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker9:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker10:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker11:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker11:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker12:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker13:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker14:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker15:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker16:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker17:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker18:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+worker19:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"

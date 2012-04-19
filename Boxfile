@@ -4,36 +4,36 @@ worker2:
   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
 worker3:
   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
-worker4:
-  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
-worker5:
-  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
-worker6:
-  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
-worker7:
-  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
-worker8:
-  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
-worker9:
-  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+# worker4:
+#   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+# worker5:
+#   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+# worker6:
+#   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+# worker7:
+#   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+# worker8:
+#   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+# worker9:
+#   exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
 web1:
   php_version: 5.3.8
 web2:
   php_version: 5.3.8
 web3:
   php_version: 5.3.8
-web4:
-  php_version: 5.3.8
-web5:
-  php_version: 5.3.8
-web6:
-  php_version: 5.3.8
-web7:
-  php_version: 5.3.8
-web8:
-  php_version: 5.3.8
-web9:
-  php_version: 5.3.8
+# web4:
+#   php_version: 5.3.8
+# web5:
+#   php_version: 5.3.8
+# web6:
+#   php_version: 5.3.8
+# web7:
+#   php_version: 5.3.8
+# web8:
+#   php_version: 5.3.8
+# web9:
+#   php_version: 5.3.8
 # db1:
 #   type: mysql
 # db2:
@@ -56,17 +56,17 @@ cache1:
   type: redis
 cache2:
   type: memcached
-cache3:
-  type: redis
-cache4:
-  type: memcached
-cache5:
-  type: redis
-cache6:
-  type: memcached
-cache7:
-  type: redis
-cache8:
-  type: memcached
-cache9:
-  type: redis
+# cache3:
+#   type: redis
+# cache4:
+#   type: memcached
+# cache5:
+#   type: redis
+# cache6:
+#   type: memcached
+# cache7:
+#   type: redis
+# cache8:
+#   type: memcached
+# cache9:
+#   type: redis

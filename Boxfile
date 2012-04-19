@@ -54,10 +54,10 @@ web3:
 #   type: mysql
 cache1:
   type: redis
-cache2:
-  type: memcached
-# cache3:
-#   type: redis
+# cache2:
+#   type: memcached
+cache3:
+  type: redis
 # cache4:
 #   type: memcached
 # cache5:

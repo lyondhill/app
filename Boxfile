@@ -34,24 +34,24 @@ web8:
   php_version: 5.3.8
 web9:
   php_version: 5.3.8
-db1:
-  type: mysql
-db2:
-  type: mysql
-db3:
-  type: mysql
-db4:
-  type: mysql
-db5:
-  type: mysql
-db6:
-  type: mysql
-db7:
-  type: mysql
-db8:
-  type: mysql
-db9:
-  type: mysql
+# db1:
+#   type: mysql
+# db2:
+#   type: mysql
+# db3:
+#   type: mysql
+# db4:
+#   type: mysql
+# db5:
+#   type: mysql
+# db6:
+#   type: mysql
+# db7:
+#   type: mysql
+# db8:
+#   type: mysql
+# db9:
+#   type: mysql
 cache1:
   type: redis
 cache2:

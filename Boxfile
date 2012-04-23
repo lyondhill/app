@@ -1,0 +1,11 @@
+worker1:
+  exec: "REDIS_BACKEND='tunnel.pagodabox.com:6379' QUEUE=default php /var/www/worker.php"
+web1:
+  php_version: 5.3.8
+db1:
+   type: mysql
+cache1:
+  type: redis
+cache2:
+   type: memcached
+

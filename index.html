@@ -1,1 +1,77 @@
+<<<<<<< HEAD
 hi
+=======
+<head><title>Strobe</title></head>
+<script type="text/javascript">
+<!--
+spe=100;
+na=document.all.tags("blink");
+swi=1;
+bringBackBlinky();
+
+function bringBackBlinky() {
+
+if (swi == 1) {
+sho="visible";
+swi=0;
+}
+else {
+sho="hidden";
+swi=1;
+}
+
+for(i=0;i<na.length;i++) {
+na[i].style.visibility=sho;
+}
+
+setTimeout("bringBackBlinky()", spe);
+}
+-->
+</script>
+
+<SCRIPT LANGUAGE="JavaScript">
+/* Visit http://www.yaldex.com/ for full source code
+and get more free JavaScript, CSS and DHTML scripts! */
+var pos = 10;
+var canGo=true;
+function initArray() {
+this.length = initArray.arguments.length;
+for (var i = 0; i < this.length; i++) {
+this[i] = initArray.arguments[i];
+   }
+}
+var col=new initArray("4b","5b","8b","8b");
+function Stop() {
+document.bgColor = '#FFFFFF';
+clearInterval(loopID);
+canGo=true;
+}
+function Go() {
+  col[1]="black"
+  col[2]="white"
+  col[3]="yellow"
+  col[4]="whitesmoke"
+  col[5]="white"
+  col[6]="wheat"
+  col[7]="violet"
+  col[8]="turquoise"
+  col[9]="tomato"
+  col[10]="thistle"
+  pos++;
+  if (pos<0||pos>2) {
+    pos = 0;
+  }
+  document.bgColor = col[pos];
+  //loopID = setTimeout("Start()",50);
+
+}
+function Start()
+{
+   if(canGo) loopID =setInterval("Go()",1);
+    canGo=false;
+}
+window.onload=Start;
+
+</SCRIPT>
+ 
+>>>>>>> a06bf493b4d792527029a7a8defed36741d61130

@@ -8,11 +8,7 @@ class Send_Email
     public function perform()
     {
         // Work work work
-<<<<<<< HEAD
         mail('lyondhill@gmail.com', 'Test Subject', "This is an email message from the pongo app");
-=======
-        mail('clay@pagodabox.com', 'Test Subject', "This is an email message from the pongo app");
->>>>>>> a06bf493b4d792527029a7a8defed36741d61130
         echo $this->args['name'];
         echo "email sent";
     }
